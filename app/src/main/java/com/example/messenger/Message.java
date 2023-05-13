@@ -8,8 +8,7 @@ public class Message {
         this.message_text = message_text;
     }
 
-    public Message() {
-    }
+    public Message() {}
 
     public String getUser_name() {
         return user_name;
