@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:text="Привіт"
             android:textColor="@color/black"
+            android:textIsSelectable="true"
             android:textSize="20sp"
             tools:ignore="HardcodedText" />
 
