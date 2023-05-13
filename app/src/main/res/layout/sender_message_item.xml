@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_margin="10dp">
@@ -10,12 +11,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="Петро"/>
+        android:text="Петро"
+        tools:ignore="HardcodedText" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/message_style"
+        android:background="@drawable/sender_message_style"
         android:padding="10dp">
 
         <TextView
@@ -24,7 +26,8 @@
             android:layout_height="wrap_content"
             android:text="Привіт"
             android:textColor="@color/white"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
 
     </RelativeLayout>
 

@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     name = binding.editText.getText().toString();
                     startActivity(new Intent(MainActivity.this,ChatActivity.class));
+                    finish();
                 }
             }
         });

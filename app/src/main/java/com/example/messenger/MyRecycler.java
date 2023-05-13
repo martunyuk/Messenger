@@ -21,10 +21,15 @@ public class MyRecycler extends RecyclerView.Adapter<MyRecycler.ViewHolder>{
         this.context = context;
     }
 
+    @Override
+    public int getItemViewType(int position) {
+        return messages.get(position).user_name.equals(MainActivity.name) ? 1 : 0;
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.message_item,parent,false));
+        return new ViewHolder(LayoutInflater.from(context).inflate((viewType == 1) ? R.layout.receiver_message_item : R.layout.sender_message_item, parent, false));
     }
 
     @Override
@@ -39,7 +44,7 @@ public class MyRecycler extends RecyclerView.Adapter<MyRecycler.ViewHolder>{
         return messages.size();
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder{
+    static class ViewHolder extends RecyclerView.ViewHolder{
         TextView user_name, message_text;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);

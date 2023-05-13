@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Messanger</string>
+    <string name="app_name">Messenger</string>
     <string name="str_continue">Продовжити</string>
     <string name="write_your_name">Напишіть своє ім\'я</string>
     <string name="write_message">Напишіть повідомлення</string>
