@@ -1,4 +1,4 @@
-package com.example.messanger;
+package com.example.messenger;
 
 import android.content.Context;
 

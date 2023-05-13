@@ -1,4 +1,4 @@
-package com.example.messanger;
+package com.example.messenger;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.messanger.databinding.ActivityMainBinding;
+import com.example.messenger.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

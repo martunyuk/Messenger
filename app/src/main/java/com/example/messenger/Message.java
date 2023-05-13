@@ -1,4 +1,4 @@
-package com.example.messanger;
+package com.example.messenger;
 
 public class Message {
     String user_name, message_text;

@@ -1,4 +1,4 @@
-package com.example.messanger;
+package com.example.messenger;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.messanger.databinding.ActivityChatBinding;
+import com.example.messenger.databinding.ActivityChatBinding;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
